@@ -1,0 +1,102 @@
+## build.exe output
+buildd.trc
+buildd.wrn
+buildd.err
+buildd.log
+buildd.prf
+buildd.dbb
+buildd.evt
+buildd.rec
+build.trc
+build.wrn
+build.err
+build.log
+build.prf
+build.dbb
+build.evt
+build.rec
+data/versions.xml
+build_logs/
+versionsmk.inc
+public/assembly_identity.log
+[Oo]bjd/
+[Oo]bj/
+objfre/
+target/
+[Bb]in/
+[Ll]ogs/
+BuildBits/
+
+# ignore msbuild binary log file
+msbuild.binlog
+
+# ignore thumbnails created by windows
+Thumbs.db
+
+# ignore Visual Studio IntelliSense(?) database files
+*.VC.db
+*.VC.VC.opendb
+
+# vsmsbuild would generate dirs.sln, projhash* and slnhash*
+dirs.sln
+dirs.opensdf
+dirs.sdf
+*.projhash*
+*.slnhash*
+*.sln
+
+# Ignore files build by Visual Studio
+*.user
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.sln.ide/
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.Cache
+*.ilk
+*.log
+[Dd]ebug*/
+[Rr]elease*/
+*.lib
+*.sbr
+_ReSharper*/
+*.ReSharper
+*.ReSharper.user
+[Tt]est[Rr]esult*
+*.pidb
+*.userprefs
+*.swp
+*.DotSettings
+*.ipch
+*.dbmdl
+*.jfm
+.vs/
+*~
+**/Properties/launchSettings.json
+
+# Ignore files/folders produced by VS Code.
+.vscode/
+*.code-workspace
+
+# temporary files
+*.tmp
+
+# Documentation based ignores
+docs/build.log
+docs/metadatabuild.log
+docs/_site/**
+/Product/Backend/native/Test/docdbtest1*etl*
+/Project
+/ValidatePackageRestoreNeeded
+/vim.exe.stackdump
+
+# nuget packages
+[Pp]ackages/
+*.nuget.props
+project.lock.json
